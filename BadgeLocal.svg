@@ -23,7 +23,7 @@
             .title {
                 font-size: 17px;
                 font-weight: 400;
-                scale: 1.05 1;
+                scale: 0.69 0.85;
                 transform-origin: center;
             }
         </style>
@@ -38,18 +38,18 @@
                 100%
             </text>
             <text class="title" x="32" y="38">
-                LOCAL
+                Cloud Free
             </text>
         </g>
 
         <g letter-spacing="-.55">
             <text>
                 <textPath startOffset="87.5" baseline-shift="1.3" xlink:href="#bend_upper">
-                    No Tracking
+                    No Server
                 </textPath>
             </text>
             <text>
-                <textPath startOffset="18" baseline-shift="-7.2" xlink:href="#bend_lower">
+                <textPath startOffset="18" baseline-shift="-7.5" xlink:href="#bend_lower">
                     No User Metrics
                 </textPath>
             </text>

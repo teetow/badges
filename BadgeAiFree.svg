@@ -23,7 +23,7 @@
             .title {
                 font-size: 17px;
                 font-weight: 400;
-                scale: 1.05 1;
+                scale: 1 0.9;
                 transform-origin: center;
             }
         </style>
@@ -44,8 +44,8 @@
 
         <g letter-spacing="-.55">
             <text>
-                <textPath startOffset="87.5" baseline-shift="1.7" xlink:href="#bend_upper">
-                    No Language Model
+                <textPath startOffset="87.5" baseline-shift="1.8" xlink:href="#bend_upper">
+                    No Neural Network
                 </textPath>
             </text>
             <text>
