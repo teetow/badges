@@ -23,7 +23,7 @@
             .title {
                 font-size: 17px;
                 font-weight: 400;
-                scale: 0.69 0.85;
+                scale: 0.68 0.85;
                 transform-origin: center;
             }
         </style>
