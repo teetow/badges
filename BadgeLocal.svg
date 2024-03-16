@@ -1,0 +1,60 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    transform="rotate(-25)" font-family="system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <defs>
+        <style>
+            :root {
+                --c: #00ff48;
+            }
+
+            .beam {
+                fill: none;
+                stroke: var(--c);
+                stroke-linecap: round;
+            }
+
+            .text {
+                fill: var(--c);
+                text-transform: uppercase;
+                text-anchor: middle;
+                font-weight: 600;
+                font-size: 0.325em;
+            }
+
+            .title {
+                font-size: 17px;
+                font-weight: 400;
+                scale: 1.05 1;
+                transform-origin: center;
+            }
+        </style>
+        <path d="M51 33c0 9-9 18-18 18-11 0-20-9-20-18 0-11 9-20 20-20 9 0 18 9 18 20z" id="bend_upper" />
+        <path
+            d="M17 40c3 5 9 9 15 9s12-4 15-9m12 0c-4 11-15 20-27 20S9 51 5 40m0-16C9 13 20 4 32 4s23 9 27 20m-12 0c-3-5-9-9-15-9s-12 4-15 9"
+            id="bend_lower" />
+    </defs>
+    <g class="text">
+        <g>
+            <text x="32" y="23.5">
+                100%
+            </text>
+            <text class="title" x="32" y="38">
+                LOCAL
+            </text>
+        </g>
+
+        <g letter-spacing="-.55">
+            <text>
+                <textPath startOffset="87.5" baseline-shift="1.3" xlink:href="#bend_upper">
+                    No Tracking
+                </textPath>
+            </text>
+            <text>
+                <textPath startOffset="18" baseline-shift="-7.2" xlink:href="#bend_lower">
+                    No User Metrics
+                </textPath>
+            </text>
+        </g>
+    </g>
+    <path class="beam"
+        d="M17 40c3 5 9 9 15 9s12-4 15-9m12 0c-4 11-15 20-27 20S9 51 5 40m0-16C9 13 20 4 32 4s23 9 27 20m-12 0c-3-5-9-9-15-9s-12 4-15 9" />
+</svg>
