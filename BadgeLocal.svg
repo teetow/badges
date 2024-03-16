@@ -3,7 +3,7 @@
     <defs>
         <style>
             :root {
-                --c: #00ff48;
+                --c: #1baf45;
             }
 
             .beam {

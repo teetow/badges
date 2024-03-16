@@ -3,7 +3,7 @@
     <defs>
         <style>
             :root {
-                --c: #ffcc00;
+                --c: #d39503;
             }
 
             .beam {
@@ -37,7 +37,7 @@
             <text x="32" y="23.5">
                 100%
             </text>
-            <text class="title" x="32" y="38">
+            <text class="title" x="32" y="38.2">
                 AI FREE
             </text>
         </g>
