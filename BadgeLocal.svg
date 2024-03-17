@@ -1,14 +1,13 @@
 <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     font-family="system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
     <defs>
-        <path id="tpath_top" d="M 11,32 A1,1 0 0 1 53,32"></path>
-        <path id="tpath_bottom" d="M  7,32 A1,1 0 0 0 57,32"></path>
+        <path id="tpath_top" d="M 11,30.5 A1,1 0 0 1 53,30.5"></path>
+        <path id="tpath_bottom" d="M 7,31.75 A1,1 0 0 0 57,31.75"></path>
         <path id="beams" d="
-        M5,24 A28,28 0 0 1 59,24
-        M5,40 A28,28 0 0 0 59,40
-        M16,24 A18,18 0 0 1 48,24
-        M16,40 A18,18 0 0 0 48,40
-        " />
+            M5,23 A28,28 0 0 1 59,23 
+            M5,40 A28,28 0 0 0 59,40 
+            M16,23 A18,18 0 0 1 48,23 
+            M16,40 A18,18 0 0 0 48,40" />
     </defs>
 
     <style>
@@ -32,39 +31,33 @@
             text-transform: uppercase;
             text-anchor: middle;
             font-weight: 600;
-            font-size: 0.325em;
+            font-size: 0.3em;
         }
 
         .title {
-            font-size: 17px;
+            font-size: 12px;
             font-weight: 400;
-            scale: 0.68 0.85;
-            transform-origin: center;
         }
     </style>
     <g class="badge">
         <g class="text">
-            <g>
-                <text x="32" y="24.5" font-size="7.5">
-                    100%
-                </text>
-                <text class="title" x="32" y="38">
-                    Cloud Free
-                </text>
-            </g>
+            <text x="32" y="25" font-size="8.5">
+                100%
+            </text>
+            <text class="title" x="32" y="36">
+                Cloud Free
+            </text>
 
-            <g>
-                <text>
-                    <textPath startOffset="32" xlink:href="#tpath_top">
-                        No Server
-                    </textPath>
-                </text>
-                <text letter-spacing="0.5">
-                    <textPath startOffset="40" xlink:href="#tpath_bottom">
-                        <tspan>No User Metrics</tspan>
-                    </textPath>
-                </text>
-            </g>
+            <text>
+                <textPath startOffset="32" xlink:href="#tpath_top">
+                    No Server
+                </textPath>
+            </text>
+            <text letter-spacing="0.5">
+                <textPath startOffset="40" xlink:href="#tpath_bottom">
+                    No User Metrics
+                </textPath>
+            </text>
         </g>
 
         <use href="#beams" class="beam" />

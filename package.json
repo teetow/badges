@@ -1,0 +1,22 @@
+{
+  "name": "badges",
+  "version": "1.0.0",
+  "description": "Some SVG badges",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teetow/badges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teetow/badges/issues"
+  },
+  "homepage": "https://github.com/teetow/badges#readme",
+  "devDependencies": {
+    "markserv": "^1.17.4"
+  }
+}
